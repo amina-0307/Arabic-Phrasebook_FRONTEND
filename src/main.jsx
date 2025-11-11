@@ -1,6 +1,6 @@
 import './style.css';
 import React from "react";
-import { createRoot } from "react-dom-client";
+import { createRoot } from "react-dom/client";
 import javascriptLogo from './javascript.svg';
 import viteLogo from '/vite.svg';
 import { setupCounter } from './counter.js';
