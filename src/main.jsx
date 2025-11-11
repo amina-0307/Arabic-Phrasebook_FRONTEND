@@ -1,8 +1,6 @@
 import './style.css';
 import React from "react";
 import { createRoot } from "react-dom/client";
-import javascriptLogo from './javascript.svg';
-import viteLogo from '/vite.svg';
 import { setupCounter } from './counter.js';
 import App from "./App.jsx";
 
@@ -11,10 +9,8 @@ createRoot(document.getElementById("root")).render(<App />);
 document.querySelector('#app').innerHTML = `
   <div>
     <a href="https://vite.dev" target="_blank">
-      <img src="${viteLogo}" class="logo" alt="Vite logo" />
     </a>
     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-      <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
     </a>
     <h1>Hello Vite!</h1>
     <div class="card">
