@@ -1,0 +1,18 @@
+[
+
+{
+    "category": "Greetings",
+    "phrases": [
+        { "english": "Hello", "arabic": "مرحبا", "transliteration": "Marhabā" },
+        { "english": "Peace be upon you", "arabic": "السلام عليكم", "transliteration": "As-salāmu 'alaykum" }
+    ]
+},
+
+{
+    "category": "Food",
+    "phrases": [
+        { "english": "Water", "arabic": "ماء", "transliteration": "Mā'" }
+    ]
+}
+
+]
