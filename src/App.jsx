@@ -1,19 +1,7 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Categories from "./pages/Categories";
-import QuizPage from "./pages/QuizPage";
-
-function App() {
+export default function App () {
     return (
-        <Router>
-            <Navbar />
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/categories" element={<Categories />} />
-                <Route path="/quiz" element={<QuizPage />} />
-            </Routes>
-        </Router>
+        <div style={{ padding: 16 }}>
+            <h2>Arabic Phrasebook it works 🎉</h2>
+        </div>
     );
 }
-
-export default App;
